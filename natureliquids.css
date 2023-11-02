@@ -1,0 +1,126 @@
+
+.introduction{
+     display: inline-block;
+      font-family: "Audiowide", sans-serif;
+}
+.banner{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(image4.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.navbar ul li{
+        list-style: none;
+        display: inline-block;
+        margin: 0 20px;
+        position:relative ;
+        align-items: center;
+        color: white;
+    }
+.header{
+   
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: powderblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.aside{
+    padding-left: 50%;
+    padding-right: 10%;
+
+}
+.bside{
+    padding-left: 10%;
+    padding-right: 50%;
+}
+img{
+    max-width: 430px;
+    float: left;
+    border: 30px cornsilk;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+h1{
+    font-family: "Audiowide", sans-serif;
+}
+h2, h3{
+    font-family: "Trirong", sans-serif;
+    text-align: center;
+}
+p1{
+   font-family: "sofia", sans-serif; 
+}
+p{
+    text-align: center;
+    color: black;
+}
+button{
+    padding-right: 20px;
+}
+ol li{
+    padding: auto 50px;
+
+}
+
+.article{
+    align-items: center;
+}
+section{
+    text-align: left;
+}
+.images{
+    width: 80%;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-gap: 30px;
+}
+.images img{
+    width: 100%;
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+.images img:hover{
+    transform: scale(0.8) rotate(-15deg);
+    border-radius: 20px;
+    box-shadow: 0 32px 75px rgba(65, 77, 136, 0.2);
+}
+.full-img{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.full-img img{
+    width: 90%;
+    max-width: 500px;
+}
+.full-img span{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+    color: #83B3B8;
+    font-style: italic;
+}
+body{
+    font-size:120% ;
+}
